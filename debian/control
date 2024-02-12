@@ -1,0 +1,15 @@
+Source: libkalnet
+Maintainer: Dermot Tynan <dtynan@kalopa.com>
+Section: misc
+Priority: optional
+Standards-Version: 4.6.2
+Homepage: https://github.com/kalopa/libkalnet
+Build-Depends: debhelper-compat (= 13)
+
+Package: libkalnet
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: A C library for TCP and UDP connections.
+ Based on the select(2) system call, libkalnet provides
+ a framework for building and maintaining multiple TCP
+ and UDP connections.
